@@ -8,3 +8,4 @@ crc_calibrator.log
 # kept locally, not published
 tests/
 pytest.ini
+dist/

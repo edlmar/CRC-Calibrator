@@ -1,6 +1,6 @@
 [workspace]
 name = "crc_calibrator"
-version = "0.1.0"
+version = "1.0.0"
 description = "Distribution-free miss guarantees (conformal risk control) for detectors in medical imaging"
 authors = ["Edgars Edelmers <edgars.edelmers@disroot.org>"]
 license = "MIT"

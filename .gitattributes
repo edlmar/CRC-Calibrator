@@ -2,3 +2,7 @@
 *.ico binary
 *.png binary
 *.cmd text eol=crlf
+
+# not needed inside the release archive
+.gitattributes export-ignore
+.gitignore export-ignore

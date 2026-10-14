@@ -20,8 +20,8 @@ the thresholds, measures their price, and checks the promise on repeated random 
 You need Windows 10 or 11 (64-bit), an internet connection for the first start, and about 2 GB of free disk space.
 No programming tools are needed.
 
-1. **Download.** On this page, press the **⋯** button (or **Code**) next to the file list and choose
-   **Download ZIP**.
+1. **Download** `CRC-Calibrator-<version>.zip` from the
+   [Releases](https://codeberg.org/edgars_edelmers/crc-calibrator/releases) page (the newest is at the top).
 2. **Unpack.** Right-click the downloaded file, choose **Extract All…**, and pick a place to keep the program,
    for example *Documents*. Do not start the program from inside the ZIP file.
 3. **Start.** Open the extracted folder and double-click **Start CRC Calibrator**.
@@ -38,7 +38,7 @@ data, press **Data guide** in the program: it shows what the files should look l
 **If something goes wrong:** start *Start CRC Calibrator* again. If the program does not open, a message names the
 problem and a file `crc_calibrator.log` in the program folder holds the details; send it to the author.
 
-**Update:** download and extract the new version, then start it once the same way (the shortcut is updated).
+**Update:** download and extract the new release, then start it once the same way (the shortcut is updated).
 **Remove:** delete the program folder and the desktop shortcut.
 
 ## For developers

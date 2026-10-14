@@ -1,0 +1,10 @@
+.pixi/
+__pycache__/
+.pytest_cache/
+.nicegui/
+results/
+crc_calibrator.log
+
+# kept locally, not published
+tests/
+pytest.ini

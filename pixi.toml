@@ -1,0 +1,39 @@
+[workspace]
+name = "crc_calibrator"
+version = "0.1.0"
+description = "Distribution-free miss guarantees (conformal risk control) for detectors in medical imaging"
+authors = ["Edgars Edelmers <edgars.edelmers@disroot.org>"]
+license = "MIT"
+license-file = "LICENSE"
+repository = "https://codeberg.org/edgars_edelmers/crc-calibrator"
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=1.26"
+scipy = ">=1.11"
+pandas = ">=2.1"
+matplotlib = ">=3.8"
+
+[pypi-dependencies]
+nicegui = ">=3.0"
+pywebview = ">=6.2.1, <7"
+
+[activation.env]
+PYTHONUTF8 = "1"   # α, δ, λ print correctly in the Windows console
+
+[tasks]
+gui = "python -m gui.app"
+cli = "python -m core.cli"
+example = "python -m core.cli scores examples/icc_oof.json --out results/example"
+
+# development only: users get the default environment without it
+[feature.dev.pypi-dependencies]
+pytest = "*"
+
+[feature.dev.tasks]
+test = "python -m pytest -q"
+
+[environments]
+dev = ["dev"]

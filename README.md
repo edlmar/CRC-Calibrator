@@ -1,4 +1,14 @@
-![CRC Calibrator](docs/banner.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.png">
+  <img alt="CRC Calibrator: thresholds with a guaranteed miss rate for object detectors in medical imaging" src="docs/banner-light.png">
+</picture>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-62626B"></a>
+  <img alt="Python 3.12" src="https://img.shields.io/badge/python-3.12-62626B">
+  <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-62626B">
+  <img alt="Methods: CRC, RCPS" src="https://img.shields.io/badge/methods-CRC%20%C2%B7%20RCPS-E4572E">
+</p>
 
 Give it the scores of any detector on labelled cases the model has never seen. For each miss budget α it returns
 the threshold λ, the guarantee that comes with it, and what it costs in false detections:
@@ -21,7 +31,7 @@ You need Windows 10 or 11 (64-bit), an internet connection for the first start, 
 No programming tools are needed.
 
 1. **Download** `CRC-Calibrator-<version>.zip` from the
-   [Releases](https://codeberg.org/edgars_edelmers/crc-calibrator/releases) page (the newest is at the top).
+   [Releases](../../releases) page (the newest is at the top).
 2. **Unpack.** Right-click the downloaded file, choose **Extract All…**, and pick a place to keep the program,
    for example *Documents*. Do not start the program from inside the ZIP file.
 3. **Start.** Open the extracted folder and double-click **Start CRC Calibrator**.
@@ -47,8 +57,8 @@ The program runs through [pixi](https://pixi.sh) (Windows, 64-bit):
 
 ```
 powershell -ExecutionPolicy ByPass -c "irm -useb https://pixi.sh/install.ps1 | iex"
-git clone https://codeberg.org/edgars_edelmers/crc-calibrator.git
-cd crc-calibrator
+git clone https://github.com/edlmar/CRC-Calibrator.git
+cd CRC-Calibrator
 ```
 
 ```
@@ -113,6 +123,21 @@ CRC thresholds: α = 5% → 0.095, 10% → 0.286, 15% → 0.463, 20% → 0.575; 
 - `core/cli.py` command line; `gui/app.py` the window (NiceGUI + pywebview); `gui/guide.py` the data guide and
   its templates
 
+## Citation
+
+If you use CRC Calibrator in your research, please cite it with the methods it implements:
+
+- Angelopoulos AN, Bates S, Fisch A, Lei L, Schuster T. Conformal risk control. ICLR 2024.
+- Bates S, Angelopoulos A, Lei L, Malik J, Jordan M. Distribution-free, risk-controlling prediction sets.
+  J ACM 2021;68(6):43.
+
+GitHub offers the citation of the program under **Cite this repository**, from [CITATION.cff](CITATION.cff).
+
 ## License
 
-MIT, see [LICENSE](LICENSE). © 2026 Edgars Edelmers.
+[MIT](LICENSE). © 2026 Edgars Edelmers.
+
+## Contact
+
+Edgars Edelmers – edgars.edelmers@disroot.org, or open an [issue](https://github.com/edlmar/CRC-Calibrator/issues).
+Mirror: [codeberg.org/edgars_edelmers/crc-calibrator](https://codeberg.org/edgars_edelmers/crc-calibrator).

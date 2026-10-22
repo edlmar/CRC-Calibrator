@@ -5,7 +5,7 @@ description = "Distribution-free miss guarantees (conformal risk control) for de
 authors = ["Edgars Edelmers <edgars.edelmers@disroot.org>"]
 license = "MIT"
 license-file = "LICENSE"
-repository = "https://codeberg.org/edgars_edelmers/crc-calibrator"
+repository = "https://github.com/edlmar/CRC-Calibrator"
 channels = ["conda-forge"]
 platforms = ["win-64"]
 

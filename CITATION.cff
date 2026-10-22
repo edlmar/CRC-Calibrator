@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use CRC Calibrator in your research, please cite it, together with the methods it implements."
+title: CRC Calibrator
+abstract: >-
+  Distribution-free miss guarantees for object detectors in medical imaging: conformal risk control (CRC) and
+  risk-controlling prediction sets (RCPS) pick detection thresholds whose mean share of missed objects on new
+  cases stays below a chosen budget.
+type: software
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT
+repository-code: https://github.com/edlmar/CRC-Calibrator
+authors:
+  - family-names: Edelmers
+    given-names: Edgars
+    email: edgars.edelmers@disroot.org
+keywords:
+  - conformal risk control
+  - risk-controlling prediction sets
+  - object detection
+  - medical imaging
+  - digital pathology
+references:
+  - type: conference-paper
+    title: Conformal risk control
+    authors:
+      - family-names: Angelopoulos
+        given-names: Anastasios N.
+      - family-names: Bates
+        given-names: Stephen
+      - family-names: Fisch
+        given-names: Adam
+      - family-names: Lei
+        given-names: Lihua
+      - family-names: Schuster
+        given-names: Tal
+    collection-title: International Conference on Learning Representations (ICLR)
+    year: 2024
+  - type: article
+    title: Distribution-free, risk-controlling prediction sets
+    authors:
+      - family-names: Bates
+        given-names: Stephen
+      - family-names: Angelopoulos
+        given-names: Anastasios
+      - family-names: Lei
+        given-names: Lihua
+      - family-names: Malik
+        given-names: Jitendra
+      - family-names: Jordan
+        given-names: Michael I.
+    journal: Journal of the ACM
+    volume: 68
+    issue: 6
+    start: 43
+    year: 2021
+    doi: 10.1145/3478535

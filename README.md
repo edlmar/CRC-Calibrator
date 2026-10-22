@@ -140,4 +140,3 @@ GitHub offers the citation of the program under **Cite this repository**, from [
 ## Contact
 
 Edgars Edelmers – edgars.edelmers@disroot.org, or open an [issue](https://github.com/edlmar/CRC-Calibrator/issues).
-Mirror: [codeberg.org/edgars_edelmers/crc-calibrator](https://codeberg.org/edgars_edelmers/crc-calibrator).
